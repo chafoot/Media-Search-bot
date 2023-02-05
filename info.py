@@ -6,10 +6,10 @@ id_pattern = re.compile(r'^.\d+$')
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
 USER_SESSION = environ.get('USER_SESSION', 'User_Bot')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
-USERBOT_STRING_SESSION = environ.get('USERBOT_STRING_SESSION')
+API_ID = int(environ['27709822'])
+API_HASH = environ['a30de8d316e15153c76c64342b86546b']
+BOT_TOKEN = environ['5834534987:AAFYzz6Ptke3GSaRviaeLMBhwp5Kwg9MZNY']
+USERBOT_STRING_SESSION = environ.get('BQDBAcaxs8BDAwths52aqd134P_4cLMBJdiR2h5o3f0kre5pIYUu25iwoDDslQOvOcZArIbJ9S-fkc6NIKcwwAjAEttgzK2L2t6d1k6jyyR0OIweMhApvoAnrXrWeuyh3qCrbShsZ1KdAFGjhup-o95nyra6ocVJHUNOLauVveZGaYmhDHw_k8y1ewPPy-qCBjL0u2XsVJrsP98xaU3g48_P_2vc23tmEHMrRdv5VFv2N9leUfskTnjgVjOzmx4cvLNjDMb2z1-Fw2lpFm0oQV7u9TYaoWSNPKlc_wRr-yvsq6f5TDTosjVJLl2lb_8b4HFjXntKOgXSsvvKGmaUundlAAAAAUalmTAA')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -24,8 +24,8 @@ auth_channel = environ.get('AUTH_CHANNEL')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else auth_channel
 
 # MongoDB information
-DATABASE_URI = environ['DATABASE_URI']
-DATABASE_NAME = environ['DATABASE_NAME']
+DATABASE_URI = environ['mongodb+srv://chafoot:aruntokumar@cluster0.knowtcs.mongodb.net/?retryWrites=true&w=majority']
+DATABASE_NAME = environ['cluster0']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
